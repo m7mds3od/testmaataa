@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>demoYY</title>
+<link rel="stylesheet"  href="style.css">
+
+</head>
+<body style"padding-left: 20px">
+<h1 class="title">raidocus</h1>
+<hr/>
+<form onsubmit="return radioo()">
+<label class="radioContainer">
+    ff
+    <input type="radio" value="ff" name="choose"  id="ff">
+    <span class="circle"></span>
+</label>
+<br/>
+<br/>
+ <label class="radioContainer">
+    tt
+    <input type="radio" value="tt" name="choose" id="tt">
+    <span class="circle"></span>
+ </label>
+<br/>
+<br/>
+<label class="radioContainer">
+    gg
+    <input type="radio" value="gg" name="choose" id="gg">
+    <span class="circle"></span>
+</label>
+<br/>
+<br/>
+<label class="radioContainer">
+  II
+   <input type="radio" value="ii" name="choose" id="ii">
+   <span class="circle"></span>
+</label>
+<br/>
+<br/>
+<label>
+    <button type="button" onclick="radioo()">go</button>
+</label>
+</form>
+<script>
+    function radioo(){
+        var type = document.getElementsByName("choose")
+      if(type [0].checked){
+
+          window.location="ff.html";
+      }
+      else if(type [1].checked){
+         window.location="tt.html";
+      }
+      else if(type [2].checked){
+         window.location="gg.html";
+      }
+      else if(type [3].checked){
+         window.location="ii.html";
+      }
+    }
+</script>
+<script>
+    function myfinction(){
+
+        window.location="exampl.html";
+    }
+</script>
+</body>
+</html>
